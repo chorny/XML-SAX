@@ -9,7 +9,10 @@ WriteMakefile1(
     'PREREQ_PM' => { 
         'File::Temp' => 0,
         'XML::NamespaceSupport' => 0.03,
-    },    
+    },
+    BUILD_REQUIRES => {
+        'Test' => 0,
+    },
     LICENSE => 'perl',
     META_MERGE => {
         resources => {
